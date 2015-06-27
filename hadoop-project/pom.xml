@@ -1269,6 +1269,7 @@
                 </goals>
                 <configuration>
                   <destDir>${project.build.directory}</destDir>
+				  <additionalparam>-Xdoclint:none</additionalparam>
                 </configuration>
               </execution>
             </executions>
